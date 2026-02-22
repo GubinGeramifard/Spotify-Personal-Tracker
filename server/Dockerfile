@@ -9,6 +9,4 @@ COPY . .
 
 ENV DB_PATH=/data/spotify-tracker.db
 
-EXPOSE 3001
-
 CMD ["node", "index.js"]
